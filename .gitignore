@@ -1,0 +1,16 @@
+# Firebase
+.firebase/
+
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Local config (leave out API keys)
+*-local.*

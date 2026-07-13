@@ -1,0 +1,14 @@
+As my 15 day trip to Japan concludes, me and my family would like to create a blog style subsection in ryan-bio.web.app
+We will be making two subsections; 
+    1. https://ryan-bio.web.app/jp26/ for all the public facing (no face pictures or private ones) for my fans
+    2. https://ryan-bio.web.app/jp26/leungfamily/ for family members and self memory
+
+Here are the steps:
+    1. Make the private subsection first (A calendar like blog with cards and includes the highlight picture of the day)
+    2. For my family members to add images, notes and stuff there will be a small plus button for each day
+        2a. It will be in https://ryan-bio.web.app/jp26/leungfamily/add/ and will require a password code (281013) and will require them to tick a checkbox to say if they are Ryan, Mom or Dad for the first visit
+        2b. It will allow for different fonts in the text and the text style (like bold, italic and sans, times new roman)
+        2c. It will allow for images and videos to be added and they can be downloaded in the family website and as JPG, JPEG, WebP, HEIC, PNG, HEIF, AVIF for photos and MP4, MOV, WebM for videos
+    3. Family members like 舅父仔, 嫲嫲, 婆婆 can comment on them
+    
+Important info is in my google calendar and https://docs.google.com/spreadsheets/d/1MQYcUz0QGcbDqqAn1FZCAAYIvrDh8Nao_3vuHVkBsYE/edit?usp=drivesdk

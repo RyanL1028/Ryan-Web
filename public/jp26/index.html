@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japan 2026 — Ryan's Travel Blog</title>
+  <meta name="description" content="Kyushu & Kansai 2026 — A 15-day family trip through Japan.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Quill Rich Text Editor -->
+  <link href="https://cdn.quilljs.com/1.3.7/quill.snow.css" rel="stylesheet">
+
+  <!-- Blog Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== Password Overlay (hidden by default) ===== -->
+  <div class="pw-overlay" id="pw-overlay">
+    <div class="pw-card">
+      <div class="pw-icon">&#128274;</div>
+      <h2 class="pw-title">Family Access</h2>
+      <p class="pw-subtitle">Enter the family code to view private memories</p>
+      <input type="password" id="pw-input" class="pw-input" placeholder="Enter code..." maxlength="10" autocomplete="off">
+      <div class="pw-identity" id="pw-identity">
+        <p class="pw-identity-label">Who are you?</p>
+        <div class="pw-identity-options">
+          <label class="pw-radio"><input type="radio" name="identity" value="Ryan"> Ryan</label>
+          <label class="pw-radio"><input type="radio" name="identity" value="Mom"> Mom</label>
+          <label class="pw-radio"><input type="radio" name="identity" value="Dad"> Dad</label>
+        </div>
+      </div>
+      <button id="pw-submit" class="pw-submit">Unlock</button>
+      <p class="pw-error" id="pw-error"></p>
+    </div>
+  </div>
+
+  <!-- ===== Toast Notifications ===== -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- ===== Blog Navigation ===== -->
+  <nav class="blog-nav" id="blog-nav">
+    <div class="blog-nav-inner">
+      <a href="/jp26/" class="blog-nav-brand">&#127886; Japan 2026</a>
+      <div class="blog-nav-links">
+        <a href="/jp26/" class="blog-nav-link" data-blog-page="public">Public Blog</a>
+        <a href="/jp26/leungfamily/" class="blog-nav-link" data-blog-page="family">Family Blog</a>
+        <a href="/jp26/leungfamily/add/" class="blog-nav-link blog-nav-link--add" data-blog-page="add">&#xFF0B; Add Post</a>
+      </div>
+      <a href="/" class="blog-nav-back">&#8592; Back to Bio</a>
+    </div>
+  </nav>
+
+  <!-- ===== Main Content ===== -->
+  <main class="blog-main" id="blog-main">
+    <!-- Content injected by blog.js -->
+  </main>
+
+  <!-- Supabase SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+
+  <!-- Quill Rich Text Editor -->
+  <script src="https://cdn.quilljs.com/1.3.7/quill.min.js"></script>
+
+  <!-- Blog Scripts -->
+  <script src="supabase-init.js"></script>
+  <script src="blog.js"></script>
+</body>
+</html>
