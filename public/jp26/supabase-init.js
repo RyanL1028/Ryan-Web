@@ -3,8 +3,8 @@
 
 // TODO: Replace with your Supabase URL and anon key from:
 // https://supabase.com/dashboard/project/_/settings/api
-var SUPABASE_URL = 'https://YOUR-PROJECT-ID.supabase.co';
-var SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...';
+var SUPABASE_URL = 'https://ojmelopwdusilfnkufpx.supabase.co';
+var SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9qbWVsb3B3ZHVzaWxmbmt1ZnB4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM5Mzk5NDQsImV4cCI6MjA5OTUxNTk0NH0.Dq3RePVTwH4EpInfFre5_X7vrp0gjWh99xUeboSxeFk';
 
 // Initialize Supabase client
 var supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
